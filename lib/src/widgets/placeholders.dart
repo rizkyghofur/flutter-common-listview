@@ -38,7 +38,7 @@ class NoData extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      text ?? 'There is no data',
+      text ?? 'No data found',
       textAlign: TextAlign.center,
       style: style,
     );

@@ -1,10 +1,10 @@
 name: common_listview
 description: "Listview widget with minimum common UX"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/jordanmaulana/flutter-common-listview
 
 environment:
-  sdk: ^3.6.2
+  sdk: ^2.19.0
   flutter: ">=1.17.0"
 
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

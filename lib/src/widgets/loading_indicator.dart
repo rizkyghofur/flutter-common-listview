@@ -5,7 +5,9 @@ class LoadingIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: CircularProgressIndicator());
+    return const Center(
+      child: CircularProgressIndicator.adaptive(),
+    );
   }
 }
 
@@ -14,7 +16,7 @@ class NextPageLoading extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
+    return const Positioned(
       bottom: 16.0,
       left: 0.0,
       right: 0.0,
